@@ -1,0 +1,23 @@
+
+# Virtual environments
+venv/
+env/
+*.pyc
+__pycache__/
+
+# Checkpoint files (temporary)
+checkpoints/
+checkpoint_*.json
+
+# Mac files
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Large INPUT dataset (raw lyrics)
+lyrics/
+
+# Model cache
+transformers_cache/
